@@ -78,7 +78,7 @@ const content = document.createElement("div");
 content.className = "content";
 
 const logo = document.createElement("img");
-logo.src = "https://i.postimg.cc/q79gXyTp/image-2.webp";
+logo.src = "https://i.postimg.cc/7Lt7wjMy/VDP-LOGO.webp";
 logo.className = "logo";
 logo.onclick = () => window.open("https://t.me/xvdpx");
 
