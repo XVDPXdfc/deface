@@ -1,4 +1,3 @@
-/* ================= STYLE ================= */
 const style = document.createElement("style");
 style.textContent = `
 * { margin:0; padding:0; box-sizing:border-box; }
@@ -75,7 +74,6 @@ h1,h2,h3 {
 `;
 document.head.appendChild(style);
 
-/* ================= CONTENT ================= */
 const content = document.createElement("div");
 content.className = "content";
 
@@ -87,7 +85,7 @@ logo.onclick = () => window.open("https://t.me/xvdpx");
 const h1 = document.createElement("h1");
 
 const h2a = document.createElement("h2");
-h2a.textContent = "Hacked by diable'fire - Opvault";
+h2a.textContent = "Hacked by diable'fire";
 
 const h2b = document.createElement("h2");
 h2b.textContent = "# Hack Word # Hacked # X-VDP-X";
@@ -115,7 +113,6 @@ content.appendChild(btn);
 
 document.body.appendChild(content);
 
-/* ================= TYPEWRITER ================= */
 const text = "HACKED BY X-VDP-X";
 let i = 0;
 
@@ -128,7 +125,6 @@ function typeWriter() {
 }
 typeWriter();
 
-/* ================= MATRIX ================= */
 const canvas = document.createElement("canvas");
 document.body.appendChild(canvas);
 
